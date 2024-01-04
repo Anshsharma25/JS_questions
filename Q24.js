@@ -1,4 +1,4 @@
-// Write a C program to remove first occurrence of a character from string.
+// Write a C program to remove all occurrences of a character from string.
 let v = ("hey this is ansh sharma");
 let s = ""
 function remove_occ(v,char){
@@ -9,4 +9,4 @@ function remove_occ(v,char){
     }
     return s
 }
-console.log(remove_occ(v , 'i'))
+console.log(remove_occ(v , 'a'))
